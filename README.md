@@ -109,6 +109,9 @@ config.msgHandler.worker = function() {};  // A function to handle messages from
 config.silent = false;              // If true pluribus will log nothing.
                                     //   Optional. Default: false
 
+config.killMaster = function() {};  // A user defined function to be called prior to master exit.
+                                    //   Optional. Default: none defined
+
 config.numWorkers = 2;              // If set will attempt to spawn this number of workers.
                                     //   Optional. Default: however many cpus there are
 
