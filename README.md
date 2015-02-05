@@ -97,6 +97,12 @@ config.master = function() {};      // A function to execute as the master.
 config.worker = function() {};      // A function to execute as the workers.
                                     //   Optional-but-kinda-the-whole-point. Default: none defined
 
+config.workerOnExit = function() {};  // A user defined function to be called upon worker exit
+                                    //   Optional. Default: none defined
+
+config.workerOnOnline = function() {};  // A user defined function to be called upon worker is in online state
+                                    //   Optional. Default: none defined
+
 config.msgHandler = {};             // Allows communication between master and workers
                                     //   Optional. Default: none defined
 
