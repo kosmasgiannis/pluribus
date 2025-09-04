@@ -1,6 +1,6 @@
 {
   "name": "pluribus",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "author": {
     "name": "twistdigital",
     "email": "contact@twistdigital.co.uk"
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "engine": {
-    "node": ">=0.7.8"
+    "node": ">=16.0.0"
   },
-  "_id": "pluribus@0.0.6",
+  "_id": "pluribus@0.1.0",
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
